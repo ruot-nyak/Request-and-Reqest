@@ -21,8 +21,8 @@ def mad_libs(adjective, noun):
     return f'The man walked up and saw a, {adjective} {noun}.'
 
 @app.route("/multiply/<num1>/<num2>")
-def multiply(num1,num2)
-    if (num1.isdigit() == True) (num2.isdigit() == True)
+def multiply(num1,num2):
+    if (num1.isdigit() == True) (num2.isdigit() == True):
         solution = int(num1) * int(num2)
         return solution
     else:
